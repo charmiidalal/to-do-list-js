@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "title": "Complete Assignment 1 of AED",
+        "description": "It is very important assignment",
+        "due_date": "20 th Oct 2020",
+        "due_time": "12:00 AM",
+        "status" : "open"
+    },
+    {
+        "id" : 2,
+        "title": "Complete Assignment 2 of Web Design",
+        "description": "It is very important assignment",
+        "due_date": "12 th Oct 2020",
+        "due_time": "11:00 AM",
+        "status" : "open"
+    },
+    {
+        "id" : 3,
+        "title": "Complete Assignment 2 of AED",
+        "description": "It is very important assignment",
+        "due_date": "20 th Nov 2020",
+        "due_time": "09:00 AM",
+        "status" : "completed"
+    }
+]

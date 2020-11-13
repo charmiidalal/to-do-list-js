@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- HTML code starts here -->
+<html>
+
+<head>
+    <title>Assignment 6</title>
+    <!-- Include scss to apply styles on to-do list -->
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<!-- Body of the document starts here -->
+
+<body>
+    <div class="mainDiv">
+        <!-- Body of the document starts here -->
+        <!-- Outer div of to-do app -->
+        <div id="outerDiv" class="outerDivClass">
+            <!-- Header of the to-do list -->
+            <h2 class="mainHeader">My To Do List</h2>
+            <!-- Add new task button  -->
+            <div id="addNewTaskBtn" onclick="showAddTaskSection()" title="Click here to add task details"
+                class="addBtn">
+                <label>Add New To-Do Task</label>
+            </div>
+            <!-- Input elements to accept new task values  -->
+            <div id="addItemDiv">
+                <input type="text" class="inputElements" id="taskTitle" placeholder="Title">
+                <input type="text" class="inputElements" id="taskDesc" placeholder="Description">
+                <input type="date" title="Click here to add due date" class="inputElements" id="taskDueDate"
+                    placeholder="Due Date">
+                <input type="time" title="Click here to add due time" class="inputElements" id="taskDueTime"
+                    placeholder="Due Time">
+                <!-- Save button to add new task -->
+                <div onclick="addNewTask()" title="Click here to save task" class="saveBtn">Save</div>
+            </div>
+        </div>
+        <!-- Empty ul element to append dynamic li elements -->
+        <ul id="tasksListUL"></ul>
+    </div>
+</body>
+<!-- Add javascript to perform action on events -->
+<script src="script/to_do_list.js"></script>
+<!-- HTML code ends here -->
+
+</html>
